@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	background: url(../img/fondo.jpg) no-repeat center top;
+	background: url(../img/fondo5.jpg) no-repeat center top;
 	background-size: cover;
 	font-family: Samsung Sans;
 	height: 100vh;
@@ -11,6 +11,7 @@ body{
 	width: 320px;
 	height: 420px;
 	background: #000;
+	opacity: 0.8;
 	color: #fff;
 	top: 50%;
 	left: 50%;
