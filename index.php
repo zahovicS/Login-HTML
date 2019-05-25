@@ -15,7 +15,7 @@
 		<input type="text" placeholder="Usuario" id="user">
 		<labe for="password">Contraseña</label>
 		<input type="password" placeholder="Contraseña" id="pass">
-		<input type="submit" value="Log in">
+		<input type="submit" value="Log in" id="login_user">
 		<a href="#">Perdiste tu contraseña?</a><br />
 		<a href="#">No tienes una cuenta?</a>
 	</form>
