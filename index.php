@@ -11,11 +11,11 @@
 	<img class="logo" src="img/logo.png" alt="Logo">
 	<h1>Login</h1>
 	<form action="process.php" method="POST">
-		<labe for="username">Usuario</label>
-		<input type="text" placeholder="Usuario" id="user">
-		<labe for="password">Contraseña</label>
-		<input type="password" placeholder="Contraseña" id="pass">
-		<input type="submit" value="Log in" id="login_user">
+		<label for="username">Usuario</label>
+		<input type="text" placeholder="Usuario" name="user">
+		<label for="password">Contraseña</label>
+		<input type="password" placeholder="Contraseña" name="pass">
+		<input type="submit" value="Ingresar" id="login_user">
 		<a href="#">Perdiste tu contraseña?</a><br />
 		<a href="#">No tienes una cuenta?</a>
 	</form>

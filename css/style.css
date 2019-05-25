@@ -7,7 +7,7 @@ body{
 	height: 100vh;
 }
 
-.Login-box{
+.Login-box, .register-box{
 	width: 320px;
 	height: 420px;
 	background: #000;
@@ -56,7 +56,7 @@ body{
 	font-size: 16px;
 }
 
-.Login-box input[type="submit"]{
+.Login-box button[type="submit"]{
 	border: none;
 	outline: none;
 	height: 40px;

@@ -17,18 +17,19 @@
 	$mypassword = mysql_real_escape_string($mypassword);
 
 	$sql="SELECT * FROM $tbl_name WHERE username='$myusername' and password='$mypassword'";
-$result=mysql_query($sql);
-$count=mysql_num_rows($result);
+	$result=mysql_query($sql);
+	$count=mysql_num_rows($result);
 
-if($count==1){
-// Register $myusername, $mypassword and redirect to file "login_success.php"
-$_SESSION["user"];
-$_SESSION["pass"]; 
-echo "bien";
-}
-else {
-echo "Wrong Username or Password";
-//you can also have a location here if you want to redirect to an unsuccessful page with a register ability option
-}
+	if($count==1)
+	{
+		// Register $myusername, $mypassword and redirect to file "login_success.php"
+		$_SESSION["user"];
+		$_SESSION["pass"]; 
+		echo "bien";
+	}
+	else
+	{
+		echo "Wrong Username or Password";
+	}
 
 ?>
