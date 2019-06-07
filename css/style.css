@@ -56,7 +56,7 @@ body{
 	font-size: 16px;
 }
 
-.Login-box button[type="submit"]{
+.Login-box input[type="submit"]{
 	border: none;
 	outline: none;
 	height: 40px;
